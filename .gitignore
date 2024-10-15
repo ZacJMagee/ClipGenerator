@@ -1,11 +1,15 @@
-# Ignore Edited and Unedited directories
-   Edited/
-   Unedited/
+# Ignore contents of Edited and Unedited directories
+Edited/*
+Unedited/*
 
-   # Ignore all video files
-   *.mp4
-   *.MOV
+# But keep the directories
+!Edited/.gitkeep
+!Unedited/.gitkeep
 
-   # Ignore OS generated files
-   .DS_Store
-   Thumbs.db
+# Optionally, you might want to ignore all video files everywhere
+*.mp4
+*.MOV
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
