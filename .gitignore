@@ -1,2 +1,11 @@
-Edited/
-Unedited/
+# Ignore Edited and Unedited directories
+   Edited/
+   Unedited/
+
+   # Ignore all video files
+   *.mp4
+   *.MOV
+
+   # Ignore OS generated files
+   .DS_Store
+   Thumbs.db
